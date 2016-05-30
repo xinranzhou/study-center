@@ -1,6 +1,4 @@
-@charset "UTF-8";
 /*teacher-pic*/
-/* //标题 */
 .tech_title { margin: 58px 0 62px 0; text-align: center; }
 .tech_title h2 { font-size: 48px; line-height: 50px; color: #35a7ff; }
 .tech_title h6 { font-size: 18px; color: #353535; margin-top: 24px; line-height: 20px; }
@@ -23,7 +21,7 @@
 .outBg .memu_list { padding: 0 74px; }
 .outBg .memu_list li { text-align: center; width: 130px; height: 50px; line-height: 50px; font-size: 20px; color: #22becb; cursor: pointer; }
 .outBg .memu_list .active { background-color: #f7b900; color: #fff; }
-.outBg .menu_tab .tab { display: none; padding: 0 56px; /* ///linking */ /* ///leaping */ /* ///preppy */ /* 定制课程*/ }
+.outBg .menu_tab .tab { display: none; padding: 0 56px; /* ///linking */ /* ///leaping */ /* ///preppy */ }
 .outBg .menu_tab .tab p { line-height: 22px; font-size: 18px; }
 .outBg .menu_tab .tab .p_word { font-size: 18px; text-align: left; line-height: 24px; margin: 22px 0 56px 0; }
 .outBg .menu_tab .tab .hasBg { background: #f7f7f7; width: 814px; padding: 28px 0; }
@@ -48,7 +46,6 @@
 .outBg .menu_tab .pro_title { margin: 38px 0 32px 0; }
 .outBg .menu_tab h4 { font-size: 24px; font-weight: bold; color: #00a0e9; margin-bottom: 26px; }
 
-/* ///上课平台 */
 .pro_icon-sprite, .pro_icon-linking_c, .pro_icon-linking_f, .pro_icon-linking_j, .pro_icon-linking_z { background-image: url("../images/product/pro_icon-s6ef5f112a4.png"); background-repeat: no-repeat; }
 
 .pro_icon-linking_c { background-position: 0 0; height: 80px; width: 589px; }
