@@ -1,0 +1,210 @@
+@import "compass/support";
+@import "compass/utilities/sprites";
+@import "compass/typography";
+@import "compass/css3";
+@import "-stu_font_color-";
+
+/*teacher-pic*/
+/* //标题 */
+.tech_title{
+  margin: 58px 0 62px 0;
+  text-align: center;
+  h2{
+    font-size: 48px;
+    line-height: 50px;
+    color: #35a7ff;
+  }
+  h6{
+    font-size: 18px;
+    color: #353535;
+    margin-top: 24px;
+    line-height: 20px;
+  }
+}
+.teachers_content{
+  position: relative;
+  width: 1024px;
+  margin: auto;
+  .tech_msg{
+    width: 1024px;
+    margin: auto;
+    li{
+      text-align: center;
+      margin-right: 42px;
+      margin-bottom: 28px;
+      position: relative;
+      .tech_img{
+        width: 171px;
+        height: 171px;
+        overflow: hidden;
+        position: relative;
+      }
+      span{
+        font-size: 14px;
+        line-height: 30px;
+      }
+    }
+    .no_margin{
+      margin-right: 0;
+    }
+  }
+}
+/*teacher-pic end*/
+.mid_banner{
+  height: 351px;
+  min-width: 1024px;
+  background: url(../images/index/mid_banner.jpg) no-repeat center center;
+}
+.stu_tab{background-color: #f8f8f8;}
+.set_class{
+  height: 109px;
+  font-size: 32px;
+  color: $mian-font-color;
+  padding-top: 52px;
+  font-weight: bold;
+
+}
+.outBg{
+  padding-top: 30px;
+  background: #fff;
+  padding-bottom: 38px;
+  .memu_list{
+    padding:0 74px;
+    li{
+      text-align: center;
+      width: 130px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      color: $mian-font-color;
+      cursor: pointer;
+    }
+
+    .active{
+      background-color: $header-bg-color;
+      color: #fff;
+    }
+  }
+  .menu_tab{
+    .tab{
+      display: none;
+      padding: 0 56px;
+      p{
+        line-height: 22px;
+        font-size: 18px;
+      }
+      .p_word{
+        font-size: 18px;
+        text-align: left;
+        line-height: 24px;
+        margin:22px 0 56px 0;
+      }
+      /* ///linking */
+      .hasBg{
+        background: #f7f7f7;
+        width: 814px;
+        padding: 28px 0;
+        .class_info{
+          overflow: hidden;
+          width: 646px;
+          margin: auto;
+          .info{
+            text-align: center;
+            box-sizing: content-box;
+            width: 200px;
+            float: left;
+
+            h4{
+              font-size: 24px;
+              margin-bottom:  24px;
+            }
+            span{
+              display: block;
+              line-height: 28px;
+              font-size: 18px;
+            }
+          }
+          .info1{
+            padding-right:98px;
+            border-right: 1px solid #CCC6C6;
+            h4{
+              color: #ff5a49;
+            }
+          }
+          .info2{
+            padding-left:98px;
+            h4{
+              color: #aacd06;
+            }
+          }
+        }
+      }
+      .linkP{
+        margin: 20px 0 24px 0;
+      }
+      .title2{
+        margin-top: 58px;
+        margin-bottom: 30px;
+      }
+      /* ///leaping */
+      .leapP{
+        margin: 42px 0 64px 0;
+      }
+      /* ///preppy */
+      .leapP{
+        margin: 40px 0 54px 0;
+      }
+      /* 定制课程*/
+      .dz_h4{
+        position: relative;
+        margin: 40px 0 58px 0;
+      }
+      .dz_cont{
+        width: 796px;
+        height: 138px;
+        margin: auto;
+        background: url(../images/product/dz_bg.png) no-repeat;
+        color: #00a0e9;
+        line-height: 30px;
+        font-size: 20px;
+        padding-top: 20px;
+      }
+
+      .fb_tip{
+        text-align: left;
+        li{
+          margin: 0 0 26px 0;
+          position: relative;
+          padding-left: 170px;
+          padding-top: 12px;
+          p{
+            line-height: 28px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .show{
+      display: block;
+    }
+    .pro_title{
+      margin: 38px 0 32px 0;
+    }
+    h4{
+      font-size: 24px;
+      font-weight: bold;
+      color: #00a0e9;
+      margin-bottom: 26px;
+    }
+  }
+}
+/* ///上课平台 */
+.pro_icon-sprite, .pro_icon-linking_c, .pro_icon-linking_f, .pro_icon-linking_j, .pro_icon-linking_z { background-image: url('../images/product/pro_icon-s6ef5f112a4.png'); background-repeat: no-repeat; }
+
+.pro_icon-linking_c { background-position: 0 0; height: 80px; width: 589px; }
+
+.pro_icon-linking_f { background-position: 0 -80px; height: 80px; width: 589px; }
+
+.pro_icon-linking_j { background-position: 0 -160px; height: 80px; width: 589px; }
+
+.pro_icon-linking_z { background-position: 0 -240px; height: 80px; width: 589px; }

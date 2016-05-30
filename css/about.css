@@ -1,0 +1,4 @@
+.ab_cont { height: 666px; min-height: 666px; margin-top: 40px; padding: 20px 0; background: url("../images/about_bg.png") no-repeat center center; }
+.ab_cont h4.title { font-size: 30px; font-weight: bold; color: #f7b900; margin: 10px 0 50px 0; }
+.ab_cont h4.title span { height: 30px; padding: 0 20px; border-right: 4px solid #f7b900; margin-right: 20px; }
+.ab_cont p { font-size: 18px; font-weight: bold; color: #22becb; line-height: 26px; }

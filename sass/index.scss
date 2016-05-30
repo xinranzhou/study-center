@@ -1,0 +1,240 @@
+@import "compass/support";
+@import "compass/utilities/sprites";
+@import "compass/typography";
+@import "compass/css3";
+$index_icon-sprite-dimensions: true;
+@import "index/index_icon/*.png";
+@include all-index_icon-sprites;
+@import "-stu_font_color-";
+ .class_platform { padding-top: 38px; }
+.lr_struct dl { margin-bottom: 60px; height: auto; overflow: hidden; }
+.lr_struct dl dt { -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
+.lr_struct dl dd { line-height: 30px; position: relative; }
+.lr_struct .odd dt { float: left; }
+.lr_struct .odd dd { float: right; }
+.lr_struct .add dt { float: right; }
+.lr_struct .add dd { float: left; }
+.pro_tx dl dd h3.color_1:before { content: ""; display: block; border: 12px solid; border-color: transparent #ff5a49 #ff5a49 transparent; height: 0; width: 0; position: absolute; bottom: 0; right: -55px; }
+.pro_tx dl dd h3.color_2:before { content: ""; display: block; border: 12px solid; border-color: transparent transparent #5283e7 #5283e7; height: 0; width: 0; position: absolute; bottom: 0; left: -55px; }
+.pro_tx dl dd h3.color_3:before { content: ""; display: block; border: 12px solid; border-color: transparent #aacd06 #aacd06 transparent; height: 0; width: 0; position: absolute; bottom: 0; right: -55px; }
+.pro_tx { margin-top: 64px; text-align: left; }
+.pro_tx dl { margin-bottom: 60px; height: auto; overflow: hidden; }
+.pro_tx dl dt { width: 180px; height: 180px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
+.pro_tx dl dd { width: 748px; padding: 25px 36px 36px 60px; line-height: 30px; position: relative; }
+.pro_tx dl dd h3 { font-size: 34px; font-weight: bold; margin-bottom: 32px;position: relative }
+.pro_tx dl dd .color_1 { color: #ff5a49; }
+.pro_tx dl dd .color_2 { color: #5283e7; text-align: right; }
+.pro_tx dl dd .color_3 { color: #aacd06; }
+//上课流程
+.artic{
+ background-color: #f3f9ff;
+ padding: 40px 0 60px 0;
+}
+.class_pro{
+ display: none;
+ display: block\9;
+}
+.artic {
+ min-height: 340px !important;height: 340px;
+ overflow: hidden;
+ h4 {
+  font-size: 32px;
+  color: $mian-font-color;
+  font-weight: bold;
+ }
+ dl {
+  position: relative;
+  text-align: center;
+  float: left;
+  dd {
+   font-size: 14px;
+   color: $mian-font-color;
+   text-align: center;
+   line-height: 18px;
+   margin-top: 10px;
+   font-weight: bold;
+  }
+ }
+ .pro_step {
+  margin-top: 30px;
+  padding: 0 184px;
+  .step_left{
+   float: left;
+   margin-right: 190px;
+  }
+  .step_right{
+   float: right;
+  }
+ }
+ .pro_bottom{
+  margin-top: 6px;
+  dl{
+   padding-top: 20px;
+   color: #fff;
+   dd{
+    line-height: 16px;
+    color: #fff;
+   }
+  }
+ }
+}
+/*师资团队*/
+.teacher_item{
+ padding: 40px 0 60px 0;
+ min-height: 600px;
+ display: none;
+ display: block\9;
+  h4{
+   font-size: 28px;
+   color: $mian-font-color;
+   margin-bottom: 40px;
+  }
+ ul{
+  li{
+   border: 1px solid #E4DDDD;
+   width: 503px;
+   min-height: 198px;
+   height: 198px;
+   margin-right: 18px;
+   margin-bottom: 18px;
+   &:hover{
+    border-color: $header-bg-color;
+   }
+   .l_cont{
+    margin: 0 16px;
+    vertical-align: middle;
+   }
+   .r_cont{
+    position: relative;
+    font-size: 14px;
+    padding: 20px;
+    width: 345px;
+    line-height: 18px;
+    height: 100%;
+    .top{
+     position: absolute;
+     top: 20px;
+     left: 0;
+    }
+    .down{
+     position: absolute;
+     bottom: 12px ;
+     right: 45px;
+    }
+   }
+  }
+  .no_margin{
+   margin-right: 0;
+  }
+ }
+}
+
+
+
+@-webkit-keyframes fadeInDownBig{
+ 0%{
+  opacity:0;
+  -webkit-transform:translateY(-100px);
+  transform:translateY(-100px)}
+ 100%{
+  opacity:1;
+  -webkit-transform:translateY(0);
+  transform:translateY(0)}}
+@keyframes fadeInDownBig{
+ 0%{opacity:0;
+  -webkit-transform:translateY(-100px);
+  -ms-transform:translateY(-100px);
+  transform:translateY(-100px)}
+ 100%{
+  opacity:1;
+  -webkit-transform:translateY(0);
+  -ms-transform:translateY(0);
+  transform:translateY(0)}}.fadeInDownBig{-webkit-animation-name:fadeInDownBig;animation-name:fadeInDownBig}
+
+
+
+
+@-webkit-keyframes fadeInUpBig{
+ 0%{
+  opacity:0;
+  -webkit-transform:translateY(100px);
+  transform:translateY(100px)}
+ 100%{
+  opacity:1;
+  -webkit-transform:translateY(0);
+  transform:translateY(0)}}
+@keyframes fadeInUpBig{
+ 0%{opacity:0;
+  -webkit-transform:translateY(100px);
+  -ms-transform:translateY(100px);
+  transform:translateY(100px)}
+ 100%{
+  opacity:1;
+  -webkit-transform:translateY(0);
+  -ms-transform:translateY(0);
+  transform:translateY(0)}}
+.fadeInUpBig{-webkit-animation-name:fadeInUpBig;animation-name:fadeInUpBig}
+//向左边延伸===
+@-webkit-keyframes tanLateLeft{
+ 0%{
+  -webkit-transform:translate(251px,99px) scale(0);
+  transform: translate(251px,99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+@keyframes tanLateLeft{
+ 0%{
+  -webkit-transform:translate(251px,99px) scale(0);
+  transform: translate(251px,99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+.tanLateLeft{-webkit-animation-name:tanLateLeft;animation-name:tanLateLeft}
+//向右边延伸===
+@-webkit-keyframes tanLateRight{
+ 0%{
+  -webkit-transform:translate(-251px,99px) scale(0);
+  transform: translate(-251px,99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+@keyframes tanLateRight{
+ 0%{
+  -webkit-transform:translate(-251px,99px) scale(0);
+  transform: translate(-251px,99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+.tanLateRight{-webkit-animation-name:tanLateRight;animation-name:tanLateRight}
+//向左下延伸===
+@-webkit-keyframes tanLateLeftDown{
+ 0%{
+  -webkit-transform:translate(251px,-99px) scale(0);
+  transform: translate(251px,-99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+@keyframes tanLateLeftDown{
+ 0%{
+  -webkit-transform:translate(251px,-99px) scale(0);
+  transform: translate(251px,-99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+.tanLateLeftDown{-webkit-animation-name:tanLateLeftDown;animation-name:tanLateLeftDown}
+//向右下延伸===
+@-webkit-keyframes tanLateRightDown{
+ 0%{
+  -webkit-transform:translate(-251px,-99px) scale(0);
+  transform: translate(-251px,-99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+@keyframes tanLateRightDown{
+ 0%{
+  -webkit-transform:translate(-251px,-99px) scale(0);
+  transform: translate(-251px,-99px) scale(0)}
+ 100%{
+  -webkit-transform:translate(0,0) scale(1);
+  transform: translate(0,0) scale(1)}}
+.tanLateRightDown{-webkit-animation-name:tanLateRightDown;animation-name:tanLateRightDown}

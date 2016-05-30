@@ -1,0 +1,31 @@
+@import "compass/support";
+@import "compass/utilities/sprites";
+@import "compass/typography";
+@import "compass/css3";
+@import "-stu_font_color-";
+
+.ab_cont{
+  height: 666px;
+  min-height: 666px;
+  margin-top: 40px;
+  padding: 20px 0;
+  background: url("../images/about_bg.png") no-repeat center center;
+  h4.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: $header-bg-color;
+    margin: 10px 0 50px 0;
+    span{
+      height: 30px;
+      padding: 0 20px;
+      border-right: 4px solid $header-bg-color;
+      margin-right: 20px;
+    }
+  }
+  p{
+    font-size: 18px;
+    font-weight: bold;
+    color: $mian-font-color;
+    line-height: 26px;
+  }
+}
